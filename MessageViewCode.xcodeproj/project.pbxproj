@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		679296BFEE0C61D7EBE4C7E3 /* Pods_MessageViewCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BF7A7AB4EE4E86F08DF917 /* Pods_MessageViewCode.framework */; };
 		863D37A32B1980F100306098 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 863D37A22B1980F100306098 /* GoogleService-Info.plist */; };
+		864A8C0B2B3273EE008CC5B0 /* Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864A8C012B3273E5008CC5B0 /* Custom.swift */; };
+		864A8C0C2B3273EE008CC5B0 /* Extension+Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864A8C022B3273E7008CC5B0 /* Extension+Button.swift */; };
+		864A8C0D2B3273EE008CC5B0 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864A8C032B3273E9008CC5B0 /* Extension+UIView.swift */; };
+		864A8C0E2B3273EE008CC5B0 /* send.wav in Resources */ = {isa = PBXBuildFile; fileRef = 864A8C052B3273EA008CC5B0 /* send.wav */; };
+		864A8C0F2B3273EE008CC5B0 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 864A8C072B3273EC008CC5B0 /* Poppins-Medium.ttf */; };
+		864A8C102B3273EE008CC5B0 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 864A8C082B3273EC008CC5B0 /* Poppins-Bold.ttf */; };
+		864A8C112B3273EE008CC5B0 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 864A8C092B3273EC008CC5B0 /* Poppins-SemiBold.ttf */; };
+		864A8C122B3273EE008CC5B0 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864A8C0A2B3273EE008CC5B0 /* Extension+String.swift */; };
 		86AA19CD2B195223006CC8B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA19CC2B195223006CC8B1 /* AppDelegate.swift */; };
 		86AA19CF2B195223006CC8B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AA19CE2B195223006CC8B1 /* SceneDelegate.swift */; };
 		86AA19D62B195224006CC8B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86AA19D52B195224006CC8B1 /* Assets.xcassets */; };
@@ -23,6 +31,14 @@
 /* Begin PBXFileReference section */
 		587120F0A0ED6C5CE4858474 /* Pods-MessageViewCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessageViewCode.release.xcconfig"; path = "Target Support Files/Pods-MessageViewCode/Pods-MessageViewCode.release.xcconfig"; sourceTree = "<group>"; };
 		863D37A22B1980F100306098 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		864A8C012B3273E5008CC5B0 /* Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Custom.swift; sourceTree = "<group>"; };
+		864A8C022B3273E7008CC5B0 /* Extension+Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Button.swift"; sourceTree = "<group>"; };
+		864A8C032B3273E9008CC5B0 /* Extension+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
+		864A8C052B3273EA008CC5B0 /* send.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = send.wav; sourceTree = "<group>"; };
+		864A8C072B3273EC008CC5B0 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		864A8C082B3273EC008CC5B0 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		864A8C092B3273EC008CC5B0 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		864A8C0A2B3273EE008CC5B0 /* Extension+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
 		86AA19C92B195223006CC8B1 /* MessageViewCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessageViewCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86AA19CC2B195223006CC8B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86AA19CE2B195223006CC8B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +66,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		864A8C002B3272CB008CC5B0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				864A8C012B3273E5008CC5B0 /* Custom.swift */,
+				864A8C022B3273E7008CC5B0 /* Extension+Button.swift */,
+				864A8C0A2B3273EE008CC5B0 /* Extension+String.swift */,
+				864A8C032B3273E9008CC5B0 /* Extension+UIView.swift */,
+				864A8C062B3273EC008CC5B0 /* Fonts */,
+				864A8C042B3273EA008CC5B0 /* Sound */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		864A8C042B3273EA008CC5B0 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				864A8C052B3273EA008CC5B0 /* send.wav */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		864A8C062B3273EC008CC5B0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				864A8C072B3273EC008CC5B0 /* Poppins-Medium.ttf */,
+				864A8C082B3273EC008CC5B0 /* Poppins-Bold.ttf */,
+				864A8C092B3273EC008CC5B0 /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		86AA19C02B195223006CC8B1 = {
 			isa = PBXGroup;
 			children = (
@@ -71,11 +118,12 @@
 		86AA19CB2B195223006CC8B1 /* MessageViewCode */ = {
 			isa = PBXGroup;
 			children = (
-				86AA19CC2B195223006CC8B1 /* AppDelegate.swift */,
+				864A8C002B3272CB008CC5B0 /* Utils */,
 				86AA19EE2B196459006CC8B1 /* Alert */,
 				86AA19E52B19527B006CC8B1 /* Login */,
 				86AA19E02B19527B006CC8B1 /* Register */,
 				86AA19CE2B195223006CC8B1 /* SceneDelegate.swift */,
+				86AA19CC2B195223006CC8B1 /* AppDelegate.swift */,
 				86AA19D52B195224006CC8B1 /* Assets.xcassets */,
 				86AA19D72B195224006CC8B1 /* LaunchScreen.storyboard */,
 				863D37A22B1980F100306098 /* GoogleService-Info.plist */,
@@ -220,8 +268,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				86AA19D92B195224006CC8B1 /* LaunchScreen.storyboard in Resources */,
+				864A8C112B3273EE008CC5B0 /* Poppins-SemiBold.ttf in Resources */,
+				864A8C102B3273EE008CC5B0 /* Poppins-Bold.ttf in Resources */,
 				863D37A32B1980F100306098 /* GoogleService-Info.plist in Resources */,
+				864A8C0E2B3273EE008CC5B0 /* send.wav in Resources */,
 				86AA19D62B195224006CC8B1 /* Assets.xcassets in Resources */,
+				864A8C0F2B3273EE008CC5B0 /* Poppins-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +328,13 @@
 			files = (
 				86AA19ED2B19527B006CC8B1 /* LoginViewController.swift in Sources */,
 				86AA19EA2B19527B006CC8B1 /* RegisterScreen.swift in Sources */,
+				864A8C0D2B3273EE008CC5B0 /* Extension+UIView.swift in Sources */,
+				864A8C0B2B3273EE008CC5B0 /* Custom.swift in Sources */,
 				86AA19EB2B19527B006CC8B1 /* RegisterViewController.swift in Sources */,
 				86AA19CD2B195223006CC8B1 /* AppDelegate.swift in Sources */,
 				86AA19CF2B195223006CC8B1 /* SceneDelegate.swift in Sources */,
+				864A8C122B3273EE008CC5B0 /* Extension+String.swift in Sources */,
+				864A8C0C2B3273EE008CC5B0 /* Extension+Button.swift in Sources */,
 				86AA19EC2B19527B006CC8B1 /* LoginScreen.swift in Sources */,
 				86AA19F02B196459006CC8B1 /* Alert.swift in Sources */,
 			);
