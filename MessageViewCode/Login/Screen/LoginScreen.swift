@@ -33,7 +33,7 @@ class LoginScreen: UIView {
     lazy var logoAppImageView:UIImageView = {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.image = UIImage(named: "logo")?.withRenderingMode(.alwaysTemplate)
+        imageView.image = UIImage(named: "send-circle")
         imageView.tintColor = .green
         imageView.contentMode = .scaleAspectFit
         
