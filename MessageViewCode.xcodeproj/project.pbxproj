@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		679296BFEE0C61D7EBE4C7E3 /* Pods_MessageViewCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BF7A7AB4EE4E86F08DF917 /* Pods_MessageViewCode.framework */; };
+		862740212B71C5D90089BF94 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862740202B71C5D90089BF94 /* HomeViewController.swift */; };
+		862740242B71C6680089BF94 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862740232B71C6680089BF94 /* HomeScreen.swift */; };
+		862740272B71C7920089BF94 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862740262B71C7920089BF94 /* NavView.swift */; };
 		863D37A32B1980F100306098 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 863D37A22B1980F100306098 /* GoogleService-Info.plist */; };
 		864A8C0B2B3273EE008CC5B0 /* Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864A8C012B3273E5008CC5B0 /* Custom.swift */; };
 		864A8C0C2B3273EE008CC5B0 /* Extension+Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864A8C022B3273E7008CC5B0 /* Extension+Button.swift */; };
@@ -30,6 +33,9 @@
 
 /* Begin PBXFileReference section */
 		587120F0A0ED6C5CE4858474 /* Pods-MessageViewCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessageViewCode.release.xcconfig"; path = "Target Support Files/Pods-MessageViewCode/Pods-MessageViewCode.release.xcconfig"; sourceTree = "<group>"; };
+		862740202B71C5D90089BF94 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		862740232B71C6680089BF94 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		862740262B71C7920089BF94 /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
 		863D37A22B1980F100306098 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		864A8C012B3273E5008CC5B0 /* Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Custom.swift; sourceTree = "<group>"; };
 		864A8C022B3273E7008CC5B0 /* Extension+Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Button.swift"; sourceTree = "<group>"; };
@@ -66,6 +72,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8627401F2B71C5740089BF94 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				862740252B71C75B0089BF94 /* NavView */,
+				862740222B71C6410089BF94 /* Screen */,
+				862740202B71C5D90089BF94 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		862740222B71C6410089BF94 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				862740232B71C6680089BF94 /* HomeScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		862740252B71C75B0089BF94 /* NavView */ = {
+			isa = PBXGroup;
+			children = (
+				862740262B71C7920089BF94 /* NavView.swift */,
+			);
+			path = NavView;
+			sourceTree = "<group>";
+		};
 		864A8C002B3272CB008CC5B0 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +150,7 @@
 		86AA19CB2B195223006CC8B1 /* MessageViewCode */ = {
 			isa = PBXGroup;
 			children = (
+				8627401F2B71C5740089BF94 /* Home */,
 				864A8C002B3272CB008CC5B0 /* Utils */,
 				86AA19EE2B196459006CC8B1 /* Alert */,
 				86AA19E52B19527B006CC8B1 /* Login */,
@@ -332,11 +365,14 @@
 				864A8C0B2B3273EE008CC5B0 /* Custom.swift in Sources */,
 				86AA19EB2B19527B006CC8B1 /* RegisterViewController.swift in Sources */,
 				86AA19CD2B195223006CC8B1 /* AppDelegate.swift in Sources */,
+				862740272B71C7920089BF94 /* NavView.swift in Sources */,
+				862740242B71C6680089BF94 /* HomeScreen.swift in Sources */,
 				86AA19CF2B195223006CC8B1 /* SceneDelegate.swift in Sources */,
 				864A8C122B3273EE008CC5B0 /* Extension+String.swift in Sources */,
 				864A8C0C2B3273EE008CC5B0 /* Extension+Button.swift in Sources */,
 				86AA19EC2B19527B006CC8B1 /* LoginScreen.swift in Sources */,
 				86AA19F02B196459006CC8B1 /* Alert.swift in Sources */,
+				862740212B71C5D90089BF94 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
