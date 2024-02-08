@@ -12,6 +12,7 @@
 		862740242B71C6680089BF94 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862740232B71C6680089BF94 /* HomeScreen.swift */; };
 		862740272B71C7920089BF94 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862740262B71C7920089BF94 /* NavView.swift */; };
 		863D37A32B1980F100306098 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 863D37A22B1980F100306098 /* GoogleService-Info.plist */; };
+		863DAEAB2B74685B00F3FF5E /* MessageAllModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863DAEAA2B74685B00F3FF5E /* MessageAllModel.swift */; };
 		864A8C0B2B3273EE008CC5B0 /* Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864A8C012B3273E5008CC5B0 /* Custom.swift */; };
 		864A8C0C2B3273EE008CC5B0 /* Extension+Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864A8C022B3273E7008CC5B0 /* Extension+Button.swift */; };
 		864A8C0D2B3273EE008CC5B0 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864A8C032B3273E9008CC5B0 /* Extension+UIView.swift */; };
@@ -37,6 +38,7 @@
 		862740232B71C6680089BF94 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		862740262B71C7920089BF94 /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
 		863D37A22B1980F100306098 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		863DAEAA2B74685B00F3FF5E /* MessageAllModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageAllModel.swift; sourceTree = "<group>"; };
 		864A8C012B3273E5008CC5B0 /* Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Custom.swift; sourceTree = "<group>"; };
 		864A8C022B3273E7008CC5B0 /* Extension+Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Button.swift"; sourceTree = "<group>"; };
 		864A8C032B3273E9008CC5B0 /* Extension+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
@@ -98,6 +100,14 @@
 			path = NavView;
 			sourceTree = "<group>";
 		};
+		863DAEA92B74682B00F3FF5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				863DAEAA2B74685B00F3FF5E /* MessageAllModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		864A8C002B3272CB008CC5B0 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +160,7 @@
 		86AA19CB2B195223006CC8B1 /* MessageViewCode */ = {
 			isa = PBXGroup;
 			children = (
+				863DAEA92B74682B00F3FF5E /* Model */,
 				8627401F2B71C5740089BF94 /* Home */,
 				864A8C002B3272CB008CC5B0 /* Utils */,
 				86AA19EE2B196459006CC8B1 /* Alert */,
@@ -364,6 +375,7 @@
 				864A8C0D2B3273EE008CC5B0 /* Extension+UIView.swift in Sources */,
 				864A8C0B2B3273EE008CC5B0 /* Custom.swift in Sources */,
 				86AA19EB2B19527B006CC8B1 /* RegisterViewController.swift in Sources */,
+				863DAEAB2B74685B00F3FF5E /* MessageAllModel.swift in Sources */,
 				86AA19CD2B195223006CC8B1 /* AppDelegate.swift in Sources */,
 				862740272B71C7920089BF94 /* NavView.swift in Sources */,
 				862740242B71C6680089BF94 /* HomeScreen.swift in Sources */,

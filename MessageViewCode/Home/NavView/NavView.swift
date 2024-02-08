@@ -97,7 +97,7 @@ class NavView: UIView {
         let btn = UIButton()
         btn.translatesAutoresizingMaskIntoConstraints = false
         btn.setImage(UIImage(named: "group")?.withRenderingMode(.alwaysTemplate), for: .normal)
-        btn.tintColor = .systemPink
+        btn.tintColor = .black
         btn.addTarget(self, action: #selector(self.tappedContact), for: .touchUpInside)
         
         return btn
